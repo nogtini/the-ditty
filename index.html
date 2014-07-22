@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>the ditty - an open-source composition</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Astloch:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- prettify.js CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/google-code-prettify/prettify.css" />
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="https://github.com/joey-di-nardo/theditty">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a style="color:Thistle;" href="#download">The Ditty</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contribute</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 style="font-family: Astloch, cursive;" class="brand-heading">the ditty</h1>
+                        <p class="intro-text">An <span style='color:#28c3ab;'>open-source</span> composition.<br>Readble, writable, by anyone, anywhere..</p>
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container content-section text-center arrow_box">
+        <div class="row">
+            <div style="margin-bottom: 50px;" class="col-lg-8 col-lg-offset-2">
+                <h2>About</h2>
+                <p>Add to it, subtract from it, play it with friends.<br><i>the ditty</i> is completely free, open, and editable by anyone at any time.</p>
+                <p><i>the ditty</i> is written using the open-source musical markup language <a style="color:LightSalmon" href='http://www.lilypond.org/'>LilyPond</a> and uses GitHub to keep track of changes and revisions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-top:0px;" id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>
+
+<a href="https://raw.githubusercontent.com/joey-di-nardo/theditty/gh-pages/lily/theditty.pdf" class="btn btn-default btn-lg">theditty.ly score</a>
+
+
+
+
+
+
+
+
+
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p>If you would like to contribute to the project, visit the link below, read the docs, and fork a copy.</p>
+                <ul style="margin-bottom:50px;" class="list-inline banner-social-buttons">
+                    <li><a href="https://github.com/joey-di-nardo/theditty" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <script type="text/javascript" src="assets/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript">
+        
+        function syntaxHighlight(){$("pre.prettyprint span").html(function(_, html) {
+            //make sure comments come last
+
+            //1. digits, comments, keywords
+           return html.replace(/(\d\.*)/g, '<span style="color:LightSalmon;">$1</span>').replace(/(\\\w*)/g, '<span style="color:#28c3ab;">$1</span>').replace(/(%.*)/g, '<span style="color:#505050;">$1</span>').replace(/(Staff|Voice|StaffGroup)/g, '<span style="color:White;">$1</span>');
+        });}
+
+        (function(jQuery){
+            jQuery( document ).ready( function() {
+                $.ajax({
+                  url: "lily/test.ly",
+                  dataType: 'text',
+                  success: function(data) {
+
+                    //replace lt & gt confusions
+                    data = data.replace(/</g,"&#60;");
+                    data = data.replace(/>/g,"&#62;");
+                    data = data.replace(/(".*")/g, '<span style="color:Thistle">$1</span>');
+
+
+                    var code = $("<pre style='text-align:left;' class='prettyprint linenums lang-html'><span style='color:#c5c8c6'>" + data + "</span></pre>");
+                    $("#download > div > div > div").append(code);
+                    prettyPrint();
+                    syntaxHighlight();
+                  }
+                })
+            });
+        }(jQuery))
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+/* Pretty printing styles. Used with prettify.js.
+ *
+ * Name:	Stanley Ng
+ * Email: 	stanleyhlng@googlegroups.com
+ * 
+ * Credits:
+ * https://github.com/chriskempson/tomorrow-theme
+ */
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+  background-color: #1d1f21;
+  padding: 10px;
+  border: 1px solid #E1E1E8; }
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  color: #969896;
+  margin: 0 0 0 0px; }
+
+ol.linenums li {
+  line-height: 18px;
+  padding-left: 12px; }
