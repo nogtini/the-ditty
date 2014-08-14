@@ -4,8 +4,6 @@ Now, before we get started, let me be clear that there is a slight barrier of en
 
 ##Contributing to theditty.ly
 
-*Because the Ditty uses Lilypond and is rendered as code, the Ditty as a "musical work" itself may be considered code as such and falls under the MIT license outlined within the repo.*
-
 Contributing to The Ditty is remarkably simple. If you are familiar with Git, it's even easier! Put simply, the goal is to download a file, edit it on your own computer, and when you save it, the website updates to reflect your changes.
 
 Now, clearly it cannot be *that* easy, because how would the website know when you saved it on your computer? To address this we use the GitHub software for [Windows](https://windows.github.com/) or [Mac](https://mac.github.com/).
@@ -19,3 +17,7 @@ Now, clearly it cannot be *that* easy, because how would the website know when y
 4. You're ready to edit! Edit theditty.ly (making sure to keep it in the same folder as when you downloaded) however you wish, generate a pdf of your output (making sure to keep it in the same folder as when you downloaded) and then use the GitHub app to "commit, push, and sync" the changes back into the repository.
 
 Check the website, the most current version pushed is the one displayed :sparkles:.
+
+##License and Copyright
+
+Because the Ditty is realized as code, the Ditty as a "musical work" may be considered code as such and falls under the MIT license outlined within the repo.
