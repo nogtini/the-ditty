@@ -12,35 +12,40 @@
 
 			\clef G
 
-			a8 r8 a8
-			b2.
-			\grace e'4 fis'4.
-			\bar "|"
-			a'4.
-			b8 cis'8 b8
-			a2.
-			\bar "|"
-			\time 15/8
-			e'4 cis'8
-			fis2.
-			e'4.
-			cis'4.
-			\bar "|"
-			\time 12/8
-			b8 cis'8 b8
-			a2.
+			\repeat volta 2{
+				\partial 4.
+				a8[ r8 a8]
+				|
+				b4.~
+				b4 e'8
+				fis'4.
+				a'4.
+				|
+				b8 cis'8 b8
+				a2.
+				e'4 cis'8
+				|
+				fis2.
+				e'4.
+				cis'4.
+				|
+				b8 cis'8 b8
+				a2.
+				a8[ r8 a8]
+			}
 
 
-
-			\bar "|."
 		}
 		\new Staff{
 			\tempo 4. = 80
 			\time 12/8
-			\key a \minor
+			\key a \major
 
 			\clef F
 
+			\partial 4.
+			r4.
+			|
 			r1.
 		}
 	>>
