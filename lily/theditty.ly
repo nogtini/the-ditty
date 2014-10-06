@@ -12,8 +12,8 @@
 
 			\clef G
 
+			\partial 4.
 			\repeat volta 2{
-				\partial 4.
 				a8[ r8 a8]
 				|
 				b4.~
